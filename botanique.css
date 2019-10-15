@@ -1,30 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+
+
+body{
+	margin: 0;
+	background-image: url('image/bamboo2.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
 ul{
 	list-style: none;
 }
 
+header{
+	background-color: #8C6746;
+	color:white;
+	font-family: 'Fjalla One', sans-serif;
+	font-size:20px;
+	border-bottom:2px solid #664B33;
+	position: fixed;
+	width: 100%;
+	max-height: 20%;
+}
+
+header a:link{
+	color:white;
+	text-decoration: none;
+}
+
+header a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+header a:hover{
+	border-top: 2px solid #664B33;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #664B33;
+}
+
+.accueilHeader{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 50%;
+}
+
+header img{
+	width: 15%;
+	height: 5%;
+	margin-left: 0.5%;
+	margin-top: 0.5%;
+	margin-bottom: 0.5%;
+}
+
+main{
+	margin-top: 163.19px;
+}
+
 footer{
+	background-color: #8C6746;
+	border-top:2px solid #664B33;
+
+}
+
+footer a:link{
+	color:white;
+	text-decoration: none;
+}
+
+footer a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+footer a:hover{
+	border-top: 2px solid #664B33;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #664B33;
+
+}
+.accueilFooter{
 	display: flex;
 	flex-direction: row;
-	text-align: center;
 	justify-content: center;
-	background-color: #bb9b61;
+	text-align: center;
 	color:white;
 	font-size: 20px;
-	margin:0px;
+	font-family: 'Fjalla One', sans-serif;
 }
 
 .footer1{
-	margin-top: 5px;
+	margin-top: 15px;
 }
-
 .footer2{
-	margin-top: 5px;
+	margin-top: 15px;
 }
 
-footer img{
-	width: 150px;
-	height: 90px;
+.logoFooter{
+	
+	width: 230px;
+	height: 150px;
 	margin-left: 35px;
 	margin-top: 15px;
 	margin-bottom: 10px;
 }
+
+.accueilSocial img{
+	
+	width: 50px;
+	height: 50px;
+	padding-left: 20px;
+	
+}
+
+.accueilSocial{
+	
+	width: 25%;
+	margin-right:-15%;
+	padding-top:5%;
+}
+
+.footerSocial:hover{
+	border:none;
+	transform: scale(1.2);
+}
+
+.footerSocial img:hover{
+	transform: scale(1.2);
+}
+
+ /*_____________________________________________________________________*/
+  /*_____________________________________________________________________*/
+   /*_____________________________________________________________________*/
+    /*_____________________________________________________________________*/
+     /*_____________________________________________________________________*/
+
+
+form{
+	background-color: #8C6746;
+	width: 28%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	border-radius: 35px;
+	border:3px solid #664B33;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 18px;
+}
+
+form input{
+	border-radius: 50px;
+	border:2px solid black;
+	padding:1.5%;
+}
+
+.buttonContact:hover{
+	background-color: red;
+	font-size: 25px;
+}
+
+textarea{
+	border-radius:25px;
+	border:2px solid black;
+	width: 90%;
+	padding:1.5%;
+}
+
+.mainContacte{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.
