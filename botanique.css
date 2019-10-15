@@ -1,0 +1,30 @@
+ul{
+	list-style: none;
+}
+
+footer{
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	background-color: #bb9b61;
+	color:white;
+	font-size: 20px;
+	margin:0px;
+}
+
+.footer1{
+	margin-top: 5px;
+}
+
+.footer2{
+	margin-top: 5px;
+}
+
+footer img{
+	width: 150px;
+	height: 90px;
+	margin-left: 35px;
+	margin-top: 15px;
+	margin-bottom: 10px;
+}
